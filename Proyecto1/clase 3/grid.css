@@ -1,0 +1,36 @@
+.col,.col-6,.col-5{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(39,41,43,0.03);
+    border: 1px solid rgba(39,41,43,0.1);
+}
+
+.row1{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+}
+.text-center{
+    margin-top: 4rem;
+}
+
+.table{
+    margin-top: 4rem;
+}
+
+.row2{
+    margin-top: 2rem;
+}
+
+.row3{
+    margin-top: 2rem;
+}
+
+.mb-4{
+    margin-top: 2rem;
+}
